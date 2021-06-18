@@ -1,0 +1,1 @@
+<b>&copy; 2015 - localjobs.pk</b> All Rights Reserved. Owned by <span style="color: #06F;">Yee Technologies Pvt. Ltd.</span>

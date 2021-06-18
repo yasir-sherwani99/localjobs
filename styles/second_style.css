@@ -1,0 +1,518 @@
+@charset "utf-8";
+/* CSS Document */
+.glyphicon{
+}
+.glyphicon-heart{
+	color: #F00;
+}
+.glyphicon-certificate{
+	color: #F60;
+}
+#results{
+	border: 0px solid #F60;
+	margin-left: 10px;
+	margin-right: auto;
+	height: auto;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #FFF;
+
+}
+#results #single_job a{
+	text-decoration: none;
+}
+#results #single_job h3{
+	color: #00F;
+}
+#results #single_job h4{
+	color: #000;
+	margin-left: 10px;
+	margin-top: -20px;
+}
+/*
+#reg2{
+	border-right: 0px solid #C0C0C0;
+	border-bottom: 0px solid #C0C0C0;
+	background-color: #FFF;
+	height: auto;
+	margin-top: 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+*/
+#signup_now{
+	border: 0px solid black;
+	border-bottom: 1px solid #C0C0C0;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#signup_now label{
+	font-size: 28px;
+/*	color: #FFD700;  */
+	color: #0080FF;
+	border: 0px solid red;
+	font-weight: normal;
+}
+#signup_now span{
+	font-size: 16px;
+	color: #FFD700;  
+	border: 0px solid blue;
+	font-weight: bold;
+}
+#signup_info{
+	border: 0px solid #000;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+#signup_info h3{
+	border: 0px solid red;
+	margin-top: 0px;
+	font-size:16px;
+	font-weight: normal;
+}
+#new_box_live {
+	padding-left: 10px;
+	height: auto;
+	width: auto;
+}
+#new_box_live h3{
+	border: 0px solid red;
+	margin-top: 0px;
+	font-size:16px;
+	font-weight: normal;
+}
+#employer_info_box{
+	border: 0px solid orange;
+	height: 100px;
+	margin-top: 40px;
+	padding-left: 10px;
+}
+#employer_info_box h5{
+	border: 0px solid orange;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 0px;
+}
+#employer_info_box h4{
+	border: 0px solid red;
+	font-size: 12px;
+	color: #A0A0A0;
+}
+#employer_info_box h6{
+	border: 0px solid blue;
+	font-size: 13px;
+	color: #0080FF;
+}
+#employer_info_box h6 a{
+	color: #00F;
+}
+
+#form{
+	height: auto;
+	border: 0px solid #C0C0C0;
+	background-color: #F5FFFA;
+	font-family: Helvetica, sans-serif;
+}
+#form h1{
+	color: #F60;	
+	border: 0px solid #A0A0A0;
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 30px;
+	text-align: left;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.form_side_title{
+	color: #000;
+	font-weight: bold;
+	font-size: 14px;
+}
+.form_top_title{
+	color: #0080FF; 
+	font-weight: bold;
+	font-size: 18px;
+	text-align: left;
+}
+#contents #newmem tr td{
+	border: 0px solid #000;
+	padding: 5px;
+}
+.field{
+	width: 200px;
+}
+#profile{
+	border: 0px solid #000;
+	width: 730px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+#pic{
+	border: 0px solid #FFF;
+	height: 250px;
+	margin-top: 10px;
+}
+#pic span{
+	border: 0px solid red;
+	font-size: 10px;
+}
+#title{
+	border: 0px solid #FFF;
+	height: 250px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-top: 10px;
+}
+#space-ps{
+	height: auto;
+	padding: 10px;
+	border: 1px solid #E0E0E0;
+}
+
+#space-info img{
+	width: 150px;
+	height: 150px;
+	margin-top: 10px;
+}
+#personal-statement, #professional-summary, #work-history, #qualification, #looking-for, #professional-skills, #resume-cv, #personal-info, #upload-picture, #upload-resume, #change-password, #edit-professional-summary, #edit-qualification, #edit-personal-info, #edit-work-history, #edit-personal-statement, #edit-professional-skills, #edit-looking-for{
+	border: 0px solid red;
+	height: auto;
+	background-color: #FFFFFF;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+.dashboard_main_headings{
+	width: 40%; 
+	color: #000; 
+	font-weight: bold;
+	font-size: 12px;
+}
+#space-psum{
+	background-color: #FFF;
+}
+.dashboard_paragraph{
+	text-align: right; 
+	margin-right: 10px;
+}
+.dashboard_title{
+	font-weight: bold; 
+	color: #000; 
+}
+
+#contact{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px; 
+	border: 0px solid green;
+	color: #000;
+	width: auto;
+}
+#contact table{
+	border-color: #FFF;
+}
+#contact input[type=password]{
+	width: 240px;
+}
+.heading{
+	color: #0080FF;
+	font-weight: bold;
+	width: 130px;
+}
+
+#warning{
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+#existinguser{
+	border: 2px solid #CCC;
+	width: 980px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #E0E0E0;
+	padding-left: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-bottom: 7px;
+}
+#existinguser #member{
+	border: 0px solid #FFF;
+	width: 425px;
+	height: auto;
+	background-color: #FFF;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-family: Geneva, sans-serif;
+	font-size: 13px;
+	border-radius: 10px;
+	float: left;
+}
+#member table td{
+		border: 2px solid #FFF;
+}
+#member input[type=text], input[type=password]{
+	padding: 4px;
+}
+.mem{
+	font-size: 16px;
+	font-weight: bold;
+	color: #FF8000;
+}
+#existinguser #notmember{
+	border: 0px solid #FFF;
+	width: 420px;
+	height: auto;
+	background-color: #E0E0E0;
+	margin-right: 40px;
+	margin-top: 23px;
+	font-family: Geneva, sans-serif;
+	font-size: 13px;
+	float: right;
+}
+#notmember ul{
+	margin-left: -10px;
+	margin-top: 0px;
+}
+#notmember ul li{
+	padding-top: 10px;
+}
+#notmember button{
+	background-color: #FFF;
+	color: #000;
+	font-weight: bold;
+	text-decoration: underline;
+	padding: 5px;
+	border-radius: 5px;
+	border-width: 0px;
+	margin-top: 10px;
+}
+
+#dashboard h1{ 
+/*	color: #FF8000;  */
+	color: #FFF;
+	width: auto;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding: 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #6495ED;
+	border-top-right-radius: 10px;
+	border-bottom: 1px solid #CCC;
+}
+#dashboard a{
+	color: #FFF;
+}
+#dashboard a:hover{
+	text-decoration: none;
+}
+
+#dashboard ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #0080FF;  
+}
+#dashboard img{
+	border: 0px solid red;
+	margin-right: 5px;
+	float: left;
+}
+.title2{
+	font-size: 12px; 
+	font-weight: bold; 
+}
+#del_butt input[type=submit]{
+	background-color: #FF0000;
+	color:#FFF; 
+	font-weight:normal; 
+	padding:4px; 
+	border-radius:5px; 
+	font-size:14px;
+	border: hidden;
+}
+#nodel_butt input[type=submit]{
+	background-color: #008000;
+	color:#FFF; 
+	font-weight:normal; 
+	padding:4px; 
+	border-radius:5px; 
+	font-size:14px;
+	border: hidden;
+}
+#frame{
+	border: 0px solid #C0C0C0;
+	height: auto;
+	background-color: #FFF;
+	border-radius: 3px;
+        padding-left: 5px;
+        padding-right: 10px;
+}
+
+#frame caption{
+	text-align: center; 
+	color: #FF8000;
+	font-size: 18px;
+	fon-weight: bold;
+}
+
+.form_fields{
+	width: 250px; 
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #000;
+}
+#form input[type=password]{
+	width: 250px;
+}
+
+#form input[type=submit]{ 
+	font-weight:bold; 
+	font-size:18px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.password_field{ 
+	padding: 5px; 
+	border-radius: 5px;
+	border: 1px solid #000;
+}
+.error_mess{
+	color: red; 
+	font-weight: bold; 
+	font-size: 12px; 
+	vertical-align: middle;
+}
+#major_error{
+	font-size: 16px;
+	color: #F00;
+	font-weight: bold;
+}
+.required{
+	color: #F00;
+	font-weight: bold;
+}
+.form_drop_down_menu{
+	padding: 5px; 
+	border-radius: 5px; 
+	border: 1px solid #C0C0C0;
+}
+/* ------ fifth style -----------  */
+
+#total_jobs_applied{
+	border: 1px solid #C0C0C0;
+	height: 100px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #CCE5FF;
+	border-radius: 10px; 
+}
+#total_jobs_applied h3{
+	font-size: 18px;
+	text-align: center;
+	color: #FFFFFF;
+	border-bottom: 1px solid #C0C0C0;
+	margin-top: 0px;
+	background-color: #6495ED;
+	padding: 5px;	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#total_jobs_applied h5{
+	font-size: 100%;
+	border-bottom: 2px solid #FFF;
+	margin-top: 0px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+#sidebar_ad{
+	border: 1px solid #C0C0C0;
+	height: 255px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#sidebar_ad h1{
+	font-size: 18px;
+	text-align: center;
+	color: #FFFFFF;
+	border-bottom: 1px solid #C0C0C0;
+	margin-top: 0px;
+	background-color: #6495ED;
+	padding: 5px;
+}
+#ads_area{
+	border: 1px solid #C0C0C0;
+	width: 710px;
+	height: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+#ads_area h1{
+	font-size: 18px;
+	text-align: center;
+	color: #0080FF;
+	border-bottom: 1px solid #C0C0C0;
+	margin-top: 0px;
+	background-color: #F0F0F0;
+}
+.edit_fields{
+	width: 300px;
+	border-radius: 4px;
+	border: 1px solid #000;
+	padding: 3px;
+}
+.profile_ddm{
+	padding: 3px;
+	border-radius: 4px;
+	border: 1px solid #000;
+}
+#search_jobs{
+	border: 1px solid #CCE5FF;
+	height: auto;
+	background-color: #FF8C00;
+	margin-bottom: 10px;
+	padding: 20px;
+	border-radius: 5px;
+	font-family: Helvetica, sans-serif;
+}
+#search_dash_box{
+	border: 1px solid #FFF;
+	height: 150px;
+	background-color: #FFF;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 3px;
+}
+#search_dash_box h2{
+	font-size: 20px;
+	color: #336600;
+	border-bottom: 3px solid red;
+	margin-top: 5px;
+	margin-left: 10px;
+	padding-bottom: 3px;
+	font-weight: bold;
+}
+
+#account_left_side{
+	border: 1px solid #FFF;
+		margin-top: 10px;
+}
+#account_center{
+	border: 1px solid #C0C0C0;
+	margin-top: 10px;
+	height: auto;
+	background-color: #FFF;
+	border-radius: 3px;
+}
+#account_right_side{
+	border: 1px solid #FFF;
+		margin-top: 10px;
+}
+.success{
+	font-weight: bold;
+}
+.fb-like{
+	width: 
+}

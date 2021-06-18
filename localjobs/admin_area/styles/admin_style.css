@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: auto;
+	padding: auto;
+	background-image: url(../images/knitting250px.png);
+}
+
+#header{
+	height: 80px;
+	border: 1px solid #00F;
+	background-color: #191970;
+}
+
+#admin_heading{
+	border: 1px solid blue;
+	background-color: #E6E6FA;
+	height: 70px;
+	border-radius: 45px;
+	margin-top: 4px;
+}
+#admin_heading h1{
+	border: 0px solid red;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #191970;
+	padding-left: 20px;
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+#clock_day{
+	margin-top: 5px;
+}
+#day1{
+	border-right: 1px solid #A0A0A0;
+	font-weight: bold;
+	font-size: 14px;
+	width: 100px;
+}
+
+#date1{
+	border: 0px solid orange;
+	font-size: 10px;
+	color: #A0A0A0;
+}
+
+#left_side_area{
+	border: 0px solid red;
+	height: auto;
+	margin-top: 0px;
+}
+
+#nav{
+	border: 1px solid #CCC;
+	width: 220px;
+	height: auto;
+	background-color: #E0E0E0;
+	margin-top: 0px;
+	border-radius: 5px;
+	padding-bottom: 5px;
+}
+
+#nav img{
+	border: 0px solid red;
+	margin-left: -30px;
+	margin-right: 10px;
+	float: left;
+}
+#nav button{
+	width: 180px;
+	height: 30px;
+	font-size: 14px;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: left;
+	padding-left: 40px;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+#contents{
+	border: 1px solid #CCC;
+	height: auto;
+	background-color: #FFF;
+	border-radius: 5px;
+}
+#top{
+	margin-top: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border: 1px solid #CCC;
+	background-color: #F5F5F5;
+	height: 110px;
+	border-radius: 5px;
+	padding: 3px;	
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#tab{
+	margin-top: 10px;
+	margin-left:auto;
+	margin-right: auto;
+}
+#search_job{
+	border: 1px solid #CCC;
+	background-color: #F5F5F5;
+	height: 100px;
+	margin-top: 10px;
+	border-radius: 5px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#all_jobs{
+	height: auto; 
+	font-size: 14px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#job{
+	margin-top: 0px;
+}
+#employers{
+	border: 0px solid green;
+}
+#apps{
+	border: 0px solid blue;
+}
+.top{
+	list-style-type: none;
+	border: 0px solid blue;
+	padding-left: 20px;
+	width: 30px;
+	margin-left: 90px;
+	margin-top: 0px;
+}
+.top li{
+	margin-bottom: -25px;
+}
+.base{
+	color: #A0A0A0;
+	size: 14px;
+	border: 0px solid red;
+	margin-top: -26px;
+	margin-left: 5px;
+}
+#latest{
+	background-color: #FFF;
+	height: auto;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#latest_jobs{
+	height: auto;
+}
+
+#latest_employers{
+	height: auto;
+}
+#latest_apps{
+	height: auto;
+}
+.new{
+	list-style-type:none;
+	margin-left: 0px;
+	border: 0px solid red;
+	width: 200px;
+}
+.new li{
+	padding: 10px;
+	border: 0px solid green;
+	margin-left: -40px;
+	
+}
+.job_title{
+	border: 0px solid green;
+	width: 150px;
+	color: #00F;
+}
+
+.application{
+	border: 0px solid blue;
+	width: 70px;
+	float: right;
+	margin-top: -40px;
+	margin-right: -10px;
+}
+.text{
+	font-size: 14px;
+	color: #A0A0A0;
+	
+}
+#search_job input[type=search]{
+	height: 30px;
+	border-radius: 5px;
+	padding-left: 5px;
+}
+#bottom{
+	border: 1px solid #FFF;
+	height: 50px;
+	clear: both;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#last_login{
+	border: 0px solid blue;
+	width: 200px;
+	font-size: 14px;
+	color: #A0A0A0;
+	margin-top: 30px;
+	padding-left: 20px;
+}
+#footer{
+	height: 50px;
+	border-top: 4px solid #191970;
+	margin-top: 10px;
+	text-align: right;
+	padding-top: 8px;
+	font-size: 14px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#footer label{
+	color: #00F;
+	text-align: center;
+	border: 0px solid red;
+}
+
+ul.pagination {
+    text-align:left;
+    color:#829994;
+	padding-left: 0px;
+}
+ul.pagination li {
+    display:inline;
+    padding:0 3px;
+}
+ul.pagination a {
+    color:#0d7963;
+    display:inline-block;
+    padding:5px 10px;
+    border:1px solid #cde0dc;
+    text-decoration:none;
+}
+ul.pagination a:hover, 
+ul.pagination a.current {
+    background:#C0C0C0;
+    color:#fff; 
+}
+#message{
+	margin-top: 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#message img{
+	border: 0px solid red;
+	float: left;
+}
+#aa{
+	border: 0px solid green;
+	padding-left: 55px;
+}
+.emp_drop_down_menu{
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #C0C0C0;
+}
+.mtwste label{
+	border: 1px solid black;
+	background-color: #191970;
+	color: #FFF;
+	width: 200px;
+	padding: 3px;
+}
+.mtwste{
+	border: 0px solid red;
+	margin-bottom: 10px;
+}
+#job_form{
+	border: 0px solid red;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#main_content_area{
+	border: 1px solid #CCC;
+	height: 530px;
+}
+#login_area{
+	height: 260px;
+	margin-top: 100px;
+	background-color: #FFF;
+	border-radius: 5px;
+	padding-top: 10px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#login_area input[type=text], input[type=password]{
+	width: 255px;
+}
+
+#login_area h3{
+	font-size: 20px;
+	font-weight: bold;
+	color: #03F;
+	border: 0px solid red;
+	margin-top: 0px;
+	text-align: center;
+}
+.email_pass_dec{
+	border: 1px solid #C0C0C0;
+	width: 25px;
+	height: 27px;
+	background-color: #E0E0E0;
+	padding-top: 0px;
+	padding-left: 11px;
+	font-size: 22px;
+	font-weight: bold;
+}
+#error{
+	color: #FF0000;
+	padding: 4px;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.form_top_title{
+	color: #FFD700; 
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.error_mess{
+	color: red; 
+	font-weight: bold; 
+	font-size: 12px; 
+}
+
+#welcome{
+	border: 1px solid #C0C0C0;
+	height: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: #FFF;
+	border-radius: 5px;
+	background-color: #E3FBFB;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding: 5px;
+}

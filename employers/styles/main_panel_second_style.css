@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+#message{
+	margin-top: 10px;
+	margin-bottom: 0px;
+} 
+#message img{
+	border: 0px solid red;
+	float: left;
+}
+#aa{
+	border: 0px solid green;
+	padding-left: 55px;
+}
+#job_form{
+	border: 0px solid red;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#main_content_area{
+	border: 1px solid #CCC;
+	width: 990px;
+	height: 530px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#login_area{
+	width: 500px;
+	height: 190px;
+	margin-top: 100px;
+	margin-left: 240px;
+	background-color: #FFF;
+	border-radius: 5px;
+	padding-top: 10px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#login_area table{
+/*	position: absolute;
+	top: 200px;
+	left: 280px;  */
+}
+#login_area table caption{
+	font-size: 20px;
+	font-weight: bold;
+	color: #03F;
+}
+#login_area input[type=text], input[type=password]{
+	padding: 5px;
+	width: 250px;
+}
+#login_area input[type=submit]{
+	padding: 5px;
+	width: 50px;
+}
+#login_area table a:link{
+	text-deocoration: none;
+	font-size: 14px;
+}
+.email_pass_dec{
+	border: 1px solid #C0C0C0;
+	width: 25px;
+	height: 27px;
+	background-color: #E0E0E0;
+	padding-top: 0px;
+	padding-left: 11px;
+	font-size: 22px;
+	font-weight: bold;
+}
+#error{
+/*	border: 0px solid #F00;
+	background-color: #FF99CC; */
+	color: #FF0000;
+	padding: 4px;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.emp_drop_down_menu{
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #C0C0C0;
+}

@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+#job_form{
+	border: 0px solid red;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#main_content_area{
+	border: 1px solid #CCC;
+	height: 530px;
+}
+#login_area{
+	height: 260px;
+	margin-top: 100px;
+	background-color: #FFF;
+	border-radius: 5px;
+	padding-top: 10px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#login_area h3{
+	font-size: 20px;
+	font-weight: bold;
+	color: #03F;
+	border: 0px solid red;
+	margin-top: 0px;
+	text-align: center;
+}
+.email_pass_dec{
+	border: 1px solid #C0C0C0;
+	width: 25px;
+	height: 27px;
+	background-color: #E0E0E0;
+	padding-top: 0px;
+	padding-left: 11px;
+	font-size: 22px;
+	font-weight: bold;
+}
+#error{
+/*	border: 0px solid #F00;
+	background-color: #FF99CC; */
+	color: #FF0000;
+	padding: 4px;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.form_top_title{
+	color: #FFD700; 
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.error_mess{
+	color: red; 
+	font-weight: bold; 
+	font-size: 12px; 
+}

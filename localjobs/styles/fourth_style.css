@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+
+.glyphicon{
+	
+}
+.glyphicon-heart{
+	color: #F00;
+}
+#when_apply_to_job{
+	border: 1px solid #C0C0C0;
+	width: 330px;
+	height: auto;
+	font-size: 14px;
+	border-radius: 3px;
+	background-color: #FFF;
+	margin-top: 20px;
+	margin-left: 40px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#when_apply_to_job button{
+	margin-left: 100px;
+}
+
+.form_fields{
+	width: 240px; 
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid;
+}
+.drop_down_menu{
+	width: 250px; 
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid;
+}
+.required_fields{
+	color: #F00; 
+	font-weight: bold;
+}
+
+#when_apply_to_job a{
+	color: #0080FF;
+}
+#when_apply_login{
+	height: 225px;
+	border: 1px solid #C0C0C0;
+	background-color: #E6E6FA;;
+	font-size: 14px;
+	border-radius: 3px;
+	margin-top: 20px;
+}
+
+#when_apply_login h4{
+	border: 0px solid red;
+	margin-top: 5px;
+	padding-left: 10px;
+}
+#when_apply_login input[type=submit]{
+	background-color: #808080;
+	color: #FFF;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	width: 60px;
+	padding: 2px;
+	margin-left: 10px;
+	border-radius: 5px;
+	border: 0px;
+}
+#when_apply_login a{
+	color: #0080FF;
+	text-decoration: none;
+}
+.when_apply_fields{
+	width: 200px;
+	padding: 4px;
+	margin-left: 10px;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+#when_apply_login table{
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+#success_message{
+	margin-top: 5px;
+	margin-bottom: 0px;
+} 
+.alert{}
+.alert-info{
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	width: 970px;
+}
+.alert-danger{
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	width: 970px;
+}
+.alert-success{
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	width: 970px;
+}
+
+#success_message img{
+	width:20px; 
+	height:20px;
+}
+#signin_box{
+	border: 0px solid red;
+	height: 300px;
+}
+#signin_box label{
+	font-size: 14px;
+	font-weight: bold;
+}
+#signin_box span{
+	font-size: 12px;
+	font-weight: bold;
+}
+#signin_box table{
+	margin-top: 40px;
+}
+
+#signin_box input[type=text]{
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #000;
+}
+#signin_box input[type=password]{
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #000;
+}
+
+#like_us_on_facebook{
+	border: 0px solid blue;
+	height: 300px;
+}
+#like_us_on_facebook h3{
+	border: 0px solid orange;
+	width: 300px;
+	margin-left: 50px;
+	color: #0080FF;
+	font-weight: normal;
+	margin-top: 40px;
+}
+#facebook_like_box{
+	border: 0px solid orange;
+	width: 300px;
+	height: 200px;
+	margin-left: 50px;
+}
+#signup_now{
+	border-bottom: 1px solid #C0C0C0;
+	margin-top: 0px;
+	width: 330px;
+	padding-bottom: 0px;
+}
+#signup_now label{
+	font-size: 28px;
+/*	color: #FFD700;  */
+	color: #0080FF;
+	border: 0px solid red;
+	font-weight: normal;
+}
+#signup_now span{
+	font-size: 16px;
+	color: #FFD700;  
+	border: 0px solid blue;
+	font-weight: bold;
+}
+#signup_info{
+	border: 0px solid #000;
+	height: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+#signup_info h3{
+	border: 0px solid red;
+	margin-left: 20px;
+	margin-top: 0px;
+	font-size:16px;
+	width: 260px;
+	font-weight: normal;
+}
+#signup_info h4{
+	border: 0px solid red;
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size:12px;
+	width: 310px;
+	font-weight: bold;
+}
+#employer_info_box{
+	border: 0px solid orange;
+	width: 350px;
+	height: 100px;
+	margin-left: auto;	
+}
+#employer_info_box h5{
+	border: 0px solid orange;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 0px;
+}
+#employer_info_box h4{
+	border: 0px solid red;
+	font-size: 12px;
+	color: #A0A0A0;
+	margin-top: -27px;
+}
+#employer_info_box h6{
+	border: 0px solid blue;
+	font-size: 13px;
+	color: #0080FF;
+	margin-top: -15px;
+}
+
